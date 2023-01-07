@@ -1,0 +1,195 @@
+* {
+    font-family: 'Work Sans';
+    margin: 0;
+}
+
+.header {
+    background-image: url(../images/banner/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.btn-primary {
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 16px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+
+
+}
+
+/* banner style */
+
+.banner {}
+
+.banner .banner-item {
+    text-align: right;
+    padding-right: 50px;
+    margin-bottom: 20px;
+
+}
+
+.banner .banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 60px;
+}
+
+.banner .banner-title2 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner .banner-title3 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner .banner-description {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* section styles */
+.section-item {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    gap: 24px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-description
+ {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+}
+
+.font-awesome {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+
+}
+
+/* plan style */
+.my-plans{
+    max-width: 1147px;
+    margin: 0 auto;
+}
+
+.plan-container {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.plan-title {
+    text-align: center;
+    margin: 60px 0;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans .title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.plans .description {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+.image-title{
+    padding-top: 55px;
+    padding-bottom: 85px;
+    padding-left: 50px;
+    position: relative;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    background-image: url(../images/gradient2.png);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+   
+}
+.image-title h3 {
+    
+    font-weight: 700;
+    font-size: 30px;
+    color:white ;
+}
+.btn-secondary{
+    background:#FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding:16px 20px ;
+    color: #F15B22;
+    margin-top: 5px;
+}
+
+
+
+/* footer style */
+.footer {
+    background-color: black;
+    height: 457px;
+    margin-top: 60px;
+}
+
+.contact {
+    display: flex;
+    padding: 130px 200px;
+    gap: 48px;
+}
+
+.contact .section-title {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.contact .section-description {
+    text-align: lefr;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contact input {
+    height: 44px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 5px;
+}
+
